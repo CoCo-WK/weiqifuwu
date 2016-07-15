@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F4FA0030EC9D09ACAC8B942 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2711279C817882F799CEF0D3 /* libPods.a */; };
 		DF24B3601D34771600B4E407 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF24B35F1D34771600B4E407 /* main.m */; };
 		DF24B3631D34771600B4E407 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF24B3621D34771600B4E407 /* AppDelegate.m */; };
 		DF24B3661D34771600B4E407 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF24B3651D34771600B4E407 /* ViewController.m */; };
 		DF24B3691D34771600B4E407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF24B3671D34771600B4E407 /* Main.storyboard */; };
 		DF24B36B1D34771600B4E407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF24B36A1D34771600B4E407 /* Assets.xcassets */; };
 		DF24B36E1D34771600B4E407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF24B36C1D34771600B4E407 /* LaunchScreen.storyboard */; };
+		DF59C4F31D3721F60034F19D /* ShijianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF59C4F21D3721F60034F19D /* ShijianViewController.m */; };
+		DF59C4F61D37613C0034F19D /* ShangbaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF59C4F51D37613C0034F19D /* ShangbaoViewController.m */; };
+		DF741ACF1D387919006661BE /* ChaxunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF741ACE1D387919006661BE /* ChaxunViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2711279C817882F799CEF0D3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84F3BB8E94001D5D75CA69C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DF24B35B1D34771600B4E407 /* 为企服务.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "为企服务.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF24B35F1D34771600B4E407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF24B3611D34771600B4E407 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,14 @@
 		DF24B36A1D34771600B4E407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF24B36D1D34771600B4E407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF24B36F1D34771600B4E407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF59C4F01D371F9E0034F19D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DF59C4F11D3721F60034F19D /* ShijianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShijianViewController.h; sourceTree = "<group>"; };
+		DF59C4F21D3721F60034F19D /* ShijianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShijianViewController.m; sourceTree = "<group>"; };
+		DF59C4F41D37613C0034F19D /* ShangbaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShangbaoViewController.h; sourceTree = "<group>"; };
+		DF59C4F51D37613C0034F19D /* ShangbaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShangbaoViewController.m; sourceTree = "<group>"; };
+		DF741ACD1D387919006661BE /* ChaxunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaxunViewController.h; sourceTree = "<group>"; };
+		DF741ACE1D387919006661BE /* ChaxunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaxunViewController.m; sourceTree = "<group>"; };
+		F03E32D7275C7177B2487326 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F4FA0030EC9D09ACAC8B942 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20C5B4E325D120E78145AD60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F03E32D7275C7177B2487326 /* Pods.debug.xcconfig */,
+				A84F3BB8E94001D5D75CA69C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		32E3FF75344959266BA69C7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2711279C817882F799CEF0D3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF24B3521D34771600B4E407 = {
 			isa = PBXGroup;
 			children = (
 				DF24B35D1D34771600B4E407 /* 为企服务 */,
 				DF24B35C1D34771600B4E407 /* Products */,
+				20C5B4E325D120E78145AD60 /* Pods */,
+				32E3FF75344959266BA69C7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +96,13 @@
 				DF24B3621D34771600B4E407 /* AppDelegate.m */,
 				DF24B3641D34771600B4E407 /* ViewController.h */,
 				DF24B3651D34771600B4E407 /* ViewController.m */,
+				DF59C4F11D3721F60034F19D /* ShijianViewController.h */,
+				DF59C4F21D3721F60034F19D /* ShijianViewController.m */,
+				DF59C4F41D37613C0034F19D /* ShangbaoViewController.h */,
+				DF59C4F51D37613C0034F19D /* ShangbaoViewController.m */,
+				DF741ACD1D387919006661BE /* ChaxunViewController.h */,
+				DF741ACE1D387919006661BE /* ChaxunViewController.m */,
+				DF59C4F01D371F9E0034F19D /* PrefixHeader.pch */,
 				DF24B3671D34771600B4E407 /* Main.storyboard */,
 				DF24B36A1D34771600B4E407 /* Assets.xcassets */,
 				DF24B36C1D34771600B4E407 /* LaunchScreen.storyboard */,
@@ -86,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF24B3721D34771600B4E407 /* Build configuration list for PBXNativeTarget "为企服务" */;
 			buildPhases = (
+				BAE5EB023C161514F852411B /* Check Pods Manifest.lock */,
 				DF24B3571D34771600B4E407 /* Sources */,
 				DF24B3581D34771600B4E407 /* Frameworks */,
 				DF24B3591D34771600B4E407 /* Resources */,
+				D84C6C1DF11DD2760B6B95EC /* Embed Pods Frameworks */,
+				21314C559182AF87F55E146A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +154,7 @@
 				TargetAttributes = {
 					DF24B35A1D34771600B4E407 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X9CDJJJ6FZ;
 					};
 				};
 			};
@@ -144,14 +189,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21314C559182AF87F55E146A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAE5EB023C161514F852411B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D84C6C1DF11DD2760B6B95EC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF24B3571D34771600B4E407 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DF24B3661D34771600B4E407 /* ViewController.m in Sources */,
+				DF741ACF1D387919006661BE /* ChaxunViewController.m in Sources */,
 				DF24B3631D34771600B4E407 /* AppDelegate.m in Sources */,
+				DF59C4F61D37613C0034F19D /* ShangbaoViewController.m in Sources */,
 				DF24B3601D34771600B4E407 /* main.m in Sources */,
+				DF59C4F31D3721F60034F19D /* ShijianViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,23 +359,33 @@
 		};
 		DF24B3731D34771600B4E407 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03E32D7275C7177B2487326 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/为企服务/PrefixHeader.pch";
 				INFOPLIST_FILE = "为企服务/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.company.hvquan.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.hvquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		DF24B3741D34771600B4E407 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A84F3BB8E94001D5D75CA69C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/为企服务/PrefixHeader.pch";
 				INFOPLIST_FILE = "为企服务/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.company.hvquan.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.hvquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -302,6 +408,7 @@
 				DF24B3741D34771600B4E407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  为企服务
+//
+//  Created by W_K  MAC on 16/7/14.
+//  Copyright © 2016年 W_K  MAC. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <AFNetworking.h>
+
+//事件管理
+#define allURL @"http://121.40.241.28:7070/app/eventmanager.action?"
+//上报
+#define shijianURL1 @"eventreport"
+//查询
+#define shijianURL2 @"eventquery"
+//查询详情
+#define shijianURL3 @"eventtosearch"
+//待签收
+#define shijianURL4 @"eventmytaskbacklog&evtReptor=admin"
+//签收
+#define shijianURL5 @"getQianShou&evtReptor=admin"
+//待处理
+#define shijianURL6 @"eventhandling&evtReptor=admin&pageno=pageno"
+//处理
+#define shijianURL7 @"getChuLi&evtReptor=admin"
+//结办
+#define shijianURL8 @"getJieban&evtReptor=admin"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
